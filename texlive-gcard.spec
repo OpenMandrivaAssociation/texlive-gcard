@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/gcard
+# catalog-date 2008-08-19 21:00:04 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-gcard
 Version:	20080819
 Release:	1
@@ -45,6 +51,7 @@ minipages for formatting by the user.
 %doc %{_texmfdistdir}/doc/latex/gcard/gcard.pdf
 %doc %{_texmfdistdir}/doc/latex/gcard/gcardex.tex
 %doc %{_texmfdistdir}/doc/latex/gcard/gcardminexample.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ minipages for formatting by the user.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
