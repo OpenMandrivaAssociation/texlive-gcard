@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-gcard
 Version:	20080819
-Release:	8
+Release:	9
 Summary:	Arrange text on a sheet to fold into a greeting card
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gcard
