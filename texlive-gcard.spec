@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/gcard
-# catalog-date 2008-08-19 21:00:04 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-gcard
 Version:	20170414
 Release:	1
@@ -37,11 +31,8 @@ minipages for formatting by the user.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/gcard/gcard.sty
-%doc %{_texmfdistdir}/doc/latex/gcard/README
-%doc %{_texmfdistdir}/doc/latex/gcard/gcard.pdf
-%doc %{_texmfdistdir}/doc/latex/gcard/gcardex.tex
-%doc %{_texmfdistdir}/doc/latex/gcard/gcardminexample.tex
+%{_texmfdistdir}/tex/latex/gcard
+%doc %{_texmfdistdir}/doc/latex/gcard
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,17 +43,3 @@ minipages for formatting by the user.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080819-2
-+ Revision: 752190
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080819-1
-+ Revision: 718526
-- texlive-gcard
-- texlive-gcard
-- texlive-gcard
-- texlive-gcard
-
