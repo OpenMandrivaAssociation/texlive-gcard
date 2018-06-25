@@ -1,5 +1,5 @@
 Name:		texlive-gcard
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Arrange text on a sheet to fold into a greeting card
 Group:		Publishing
