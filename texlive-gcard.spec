@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Arrange text on a sheet to fold into a greeting card
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gcard
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gcard
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gcard.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gcard.doc.r%{version}.tar.xz
